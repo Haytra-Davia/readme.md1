@@ -1,9 +1,6 @@
-# This is a basic workflow that is manually triggered
 
 name: Generate snake animation
 
-# Controls when the action will run. Workflow runs when manually triggered using the UI
-# or API.
 on:
   schedule: # execute every 12 hours
     - cron: "* */12 * * *"
